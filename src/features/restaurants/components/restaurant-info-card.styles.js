@@ -3,7 +3,8 @@ import { Card } from "react-native-paper";
 import { SvgXml } from "react-native-svg";
 
 export const RestaurantCard = styled(Card)`
-  margin: ${(props) => props.theme.space[3]};
+  margin: 0px ${(props) => props.theme.space[3]}
+    ${(props) => props.theme.space[3]} ${(props) => props.theme.space[3]};
   background-color: ${(props) => props.theme.colors.bg.primary};
 `;
 

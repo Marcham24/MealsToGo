@@ -44,7 +44,7 @@ export default function App() {
                 let iconName = TAB_ICON[route.name];
                 return <Ionicons name={iconName} size={size} color={color} />;
               },
-              tabBarActiveTintColor: "purple",
+              tabBarActiveTintColor: "green",
               tabBarInactiveTintColor: "gray",
             })}
           >

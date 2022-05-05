@@ -1,5 +1,5 @@
 import { Text } from "react-native";
-import { SafeView } from "../../../components/saveview";
+import { SafeView } from "../../../components/safeview";
 
 export const MapScreen = () => {
   return (
