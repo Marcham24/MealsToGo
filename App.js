@@ -12,6 +12,9 @@ import { MapScreen } from "./src/features/restaurants/screens/map.screen";
 import { NavigationContainer } from "@react-navigation/native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import Ionicons from "@expo/vector-icons/Ionicons";
+import { restaurantRequest } from "./src/services/restaurants/restaurants.service";
+
+restaurantRequest();
 
 export default function App() {
   const [oswaldLoaded] = useOswald({
