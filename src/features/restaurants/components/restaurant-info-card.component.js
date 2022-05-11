@@ -13,7 +13,7 @@ import {
 export const RestaurantInfoCard = ({ restaurant = {} }) => {
   const {
     name = "Test Restaurant",
-    photo = [
+    photos = [
       "https://www.teenaagnel.com/wp-content/uploads/2019/12/food-photography-in-dubai.jpg",
     ],
     address = "100 Made up Road",
@@ -25,7 +25,7 @@ export const RestaurantInfoCard = ({ restaurant = {} }) => {
 
   return (
     <RestaurantCard elevation={5}>
-      <RestaurantCardCover key={name} source={{ uri: photo[0] }} />
+      <RestaurantCardCover key={name} source={{ uri: photos[0] }} />
       <Info>
         <Text variant="title">{name}</Text>
         <Rating>
